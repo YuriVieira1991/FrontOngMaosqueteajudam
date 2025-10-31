@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faça sua doação para a ONG Mãos que Ajudam. Ajude via PIX, transferência ou cartão. Sua doação salva vidas.">
+    
+    <title>Doe Agora - ONG Mãos que Ajudam</title>
+
+    </head>
+
+<body>
+
+    <header>
+        <h1>ONG Mãos que Ajudam</h1>
+    </header>
+
+    <main>
+
+        <section id="area-doacao">
+            <h2>Faça a Diferença. Doe Agora.</h2>
+            <p>Sua contribuição nos permite continuar oferecendo abrigo, alimentação e esperança para centenas de pessoas em vulnerabilidade. Veja como você pode ajudar:</p>
+
+            <article class="metodo-doacao" id="doacao-pix">
+                <h3>Doação Rápida via PIX</h3>
+                <p>A forma mais rápida de nos ajudar. Você pode usar o QR Code ou a nossa chave.</p>
+
+                <div class="pix-container">
+                    <figure>
+                        <img src="31QNELTxbLL.png" alt="QR Code para doação PIX para a ONG Mãos que Ajudam" Style="width: 150px" >
+                        <figcaption>Aponte a câmera do seu app de banco</figcaption>
+                    </figure>
+
+                    <div class="pix-chave">
+                        <h4>Ou use nossa Chave PIX (CNPJ):</h4>
+                        <label for="chave-pix-valor">Nossa chave:</label>
+                        <input type="text" id="chave-pix-valor" value="XX.XXX.XXX/0001-XX" readonly>
+                        
+                        <button type="button" id="btn-copiar-pix">Copiar Chave</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="metodo-doacao" id="doacao-transferencia">
+                <h3>Transferência Bancária (TED/DOC)</h3>
+                <p>Você também pode doar diretamente em nossa conta corrente:</p>
